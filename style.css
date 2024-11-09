@@ -1,0 +1,170 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/* Header Blok */
+.container-fluid {
+  background-image: url('img/wedding 1.jpg'); /* Tambahkan gambar latar belakang header */
+  background-size: cover;
+  color: #ffffff;
+  font: bold;
+  font-size: medium;
+  justify-content: center;
+  padding: 0;
+}
+
+.container-blok {
+margin-top: 5%;
+max-width: 75%;
+padding: 50px;
+text-align: justify;
+}
+
+.text-blok {
+  font: bold;
+  margin: 0%;
+  text-align: justify;
+}
+
+.galeri-colum img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(182, 10, 10, 0.877);
+  width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(19, 9, 9, 0.918);
+}
+
+.galeri-titel{
+  justify-content: center;
+    text-emphasis: none;
+    display: grid;
+    font: bold;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.titel-testi{
+  justify-content: center;
+    text-emphasis: none;
+    display: grid;
+    font: bold;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.gallery-testi{
+  border-radius: 100%;
+  justify-content: center;
+}
+.testimoni{
+border: 10px;
+background-color: #ffffff;
+justify-content: center;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.testimonial p {
+  font-size: 16px;
+  font-style: italic;
+  color: #050202;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial h4 {
+  font-size: 18px;
+  color: #862727;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.blok-9{
+  color: #f8f8f8;
+  border: #ffffff;
+  background-color: #050202;
+  
+}
+/*footer*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-1{
+  max-width: 1170px;
+  background-color:#24262b;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex:wrap ;
+}
+ul{
+  list-style: none;
+}
+  
+.footer{
+background-color: #24262b;
+padding: 80px 0;
+}
+
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+
+.footer-col h4{
+font-size: 18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 30px;
+font-weight: 500;
+position: relative;
+}
+
+.footer-col h4::before{
+content: none;
+position:absolute;
+left: 0;
+bottom: -10px;
+height: 2px;
+background-color: #3bd843;
+box-sizing: border-box;
+width: 50px;
+}
+
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbb;
+display: block;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col .social-links{
+display: inline-block;
+background-color: rgba(red, green, blue, alpha);
+max-resolution: 0 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+}
